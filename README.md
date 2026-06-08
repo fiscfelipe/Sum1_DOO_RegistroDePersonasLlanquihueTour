@@ -12,7 +12,7 @@
 
 Este proyecto corresponde a la actividad sumativa 1 de la asignatura **Desarrollo Orientado a Objetos **.
 
-La solución desarrollada consiste en un sistema orientado a objetos para la agencia de turismo **Llanquihue Tour**, cuyo objetivo es representar y gestionar información relacionada con personas viculadas a la empresa.
+La solución desarrollada consiste en un sistema orientado a objetos para la agencia de turismo **Llanquihue Tour**, cuyo objetivo es representar y gestionar información relacionada con personas vinculadas a la empresa.
 
 Para su implementación se aplicaron conceptos fundamentales de Programación Orientada a Objetos, tales como encapsulamiento, herencia, composición, reutilización de clases y manejo de excepciones personalizadas.
 
