@@ -54,7 +54,6 @@ src/
 ```bash
 git clone https://github.com/fiscfelipe/Sum1_DOO_RegistroDePersonasLlanquihueTour.git
 ```
-    o descárgalo y descomprimelo.
 
 2. Abre el proyecto en Apache NetBeans.
 
@@ -62,6 +61,7 @@ git clone https://github.com/fiscfelipe/Sum1_DOO_RegistroDePersonasLlanquihueTou
 
 4. Observa los ejemplos mostrados por consola y utiliza el menú interactivo para simular el registro de proveedores.
 
+nota: También existe la opción de descargarlo como un archivo .zip desde el menú desplegable arriba a la derecha (<> Code)
 ---
 
 **Repositorio GitHub:** https://github.com/fiscfelipe/Sum1_DOO_RegistroDePersonasLlanquihueTour
