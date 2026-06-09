@@ -54,14 +54,13 @@ src/
 ```bash
 git clone https://github.com/fiscfelipe/Sum1_DOO_RegistroDePersonasLlanquihueTour.git
 ```
+o descárgalo y descomprimelo.
 
 2. Abre el proyecto en Apache NetBeans.
 
-3. Verifica que todas las clases se encuentren correctamente ubicadas en sus respectivos paquetes.
+3. Ejecuta el archivo `Main.java` desde el paquete `app`.
 
-4. Ejecuta el archivo `Main.java` desde el paquete `app`.
-
-5. Observa los ejemplos mostrados por consola y utiliza el menú interactivo para simular el registro de proveedores.
+4. Observa los ejemplos mostrados por consola y utiliza el menú interactivo para simular el registro de proveedores.
 
 ---
 
