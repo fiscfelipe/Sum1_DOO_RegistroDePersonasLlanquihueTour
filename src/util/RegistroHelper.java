@@ -51,9 +51,11 @@ public class RegistroHelper {
 
     /**
      * Utiliza los datos ingresados para registrar un Proveedor de Transporte
+     *
      * @param scanner Objeto scanner utilizado para captar los datos ingresados por el usuario
      */
-    private static void registrarProveedorTransporte(Scanner scanner) {
+    private static void registrarProveedorTransporte(
+            Scanner scanner) {
 
         System.out.println("\n=== REGISTRO PROVEEDOR TRANSPORTE ===");
 
@@ -78,7 +80,9 @@ public class RegistroHelper {
         int asientosDisponibles = scanner.nextInt();
         scanner.nextLine();
 
-        ProveedorTransporte proveedor = new ProveedorTransporte(nombre, rut, correo, direccion, tipoVehiculo, patente, asientosDisponibles);
+        Vehiculo vehiculo =new Vehiculo(tipoVehiculo, patente, asientosDisponibles);
+
+        ProveedorTransporte proveedor = new ProveedorTransporte(nombre, rut, correo, direccion, vehiculo);
 
         System.out.println("\n=== DATOS REGISTRADOS ===");
         System.out.println(proveedor);
@@ -86,6 +90,7 @@ public class RegistroHelper {
 
     /**
      * Utiliza los datos ingresados para registrar un Proveedor de Alojamiento
+     *
      * @param scanner Objeto scanner utilizado para captar los datos ingresados por el usuario
      */
     private static void registrarProveedorAlojamiento(
@@ -106,7 +111,7 @@ public class RegistroHelper {
                 solicitarDireccion(scanner);
 
         System.out.print("Nombre alojamiento: ");
-        String alojamiento = scanner.nextLine();
+        String nombreAlojamiento = scanner.nextLine();
 
         System.out.print("Habitaciones disponibles: ");
         int habitacionesDisponibles = scanner.nextInt();
@@ -114,23 +119,27 @@ public class RegistroHelper {
 
         System.out.println("\nDireccion del alojamiento:");
 
-        Direccion direccionAlojamiento = solicitarDireccion(scanner);
+        Direccion direccionAlojamiento =
+                solicitarDireccion(scanner);
 
-        ProveedorAlojamiento proveedor =new ProveedorAlojamiento(nombre, rut, correo, direccionProveedor, alojamiento, habitacionesDisponibles, direccionAlojamiento);
+        Alojamiento alojamiento = new Alojamiento(nombreAlojamiento, habitacionesDisponibles, direccionAlojamiento);
+
+        ProveedorAlojamiento proveedor =
+                new ProveedorAlojamiento(nombre, rut, correo, direccionProveedor, alojamiento);
 
         System.out.println("\n=== DATOS REGISTRADOS ===");
         System.out.println(proveedor);
     }
-    
+
     /**
      * Solicita un rut al usuario hasta que este le entregue uno válido
+     *
      * @param scanner Objeto scanner utilizado para captar los datos ingresados por el usuario
      * @return el RUT ingresado
      */
     private static Rut solicitarRut(Scanner scanner) {
 
         while (true) {
-
             try {
                 System.out.print("Rut: ");
                 return new Rut(scanner.nextLine());
@@ -140,18 +149,16 @@ public class RegistroHelper {
             }
         }
     }
-    
+
     /**
      * Solicita un correo electrónico al usuario hasta que este le entregue uno válido
+     *
      * @param scanner Objeto scanner utilizado para captar los datos ingresados por el usuario
      * @return el correo electrónico ingresado
      */
     private static Correo solicitarCorreo(Scanner scanner) {
-
         while (true) {
-
             try {
-
                 System.out.print("Correo: ");
                 return new Correo(scanner.nextLine());
 
@@ -162,14 +169,14 @@ public class RegistroHelper {
     }
 
     /**
-     * Solicita una patente al usuario hasta que este le entregue uno válido
+     * Solicita una patente al usuario hasta que este le entregue una válida
+     *
      * @param scanner Objeto scanner utilizado para captar los datos ingresados por el usuario
      * @return la patente ingresada
      */
     private static Patente solicitarPatente(Scanner scanner) {
 
         while (true) {
-
             try {
                 System.out.print("Patente vehiculo: ");
                 return new Patente(scanner.nextLine());
@@ -181,7 +188,8 @@ public class RegistroHelper {
     }
 
     /**
-     * Solicita una dirección al ususario
+     * Solicita una dirección al usuario
+     *
      * @param scanner Objeto scanner utilizado para captar los datos ingresados por el usuario
      * @return la dirección ingresada
      */
@@ -201,6 +209,6 @@ public class RegistroHelper {
         System.out.print("Region: ");
         String region = scanner.nextLine();
 
-        return new Direccion(calle,numero,ciudad,region);
+        return new Direccion(calle, numero, ciudad, region);
     }
 }
