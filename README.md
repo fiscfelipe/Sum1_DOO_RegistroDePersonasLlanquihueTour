@@ -34,7 +34,9 @@ src/
 │   ├── Correo.java
 │   ├── Patente.java
 │   ├── ProveedorTransporte.java
-│   └── ProveedorAlojamiento.java
+│   ├── Vehiculo.java
+│   ├── ProveedorAlojamiento.java
+│   └── Alojamiento.java
 │
 └── util/
     ├── RegistroHelper.java
