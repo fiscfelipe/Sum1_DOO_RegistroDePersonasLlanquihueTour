@@ -4,7 +4,7 @@
 
 - **Nombre:** Felipe Saldías Cofré
 - **Carrera:** Analista Programador Computacional
-- **Sede:** Online
+- **Sede:** DuocUC - Online
 
 ---
 
