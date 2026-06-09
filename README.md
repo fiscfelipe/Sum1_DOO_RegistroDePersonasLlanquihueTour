@@ -54,7 +54,7 @@ src/
 ```bash
 git clone https://github.com/fiscfelipe/Sum1_DOO_RegistroDePersonasLlanquihueTour.git
 ```
-o descárgalo y descomprimelo.
+    o descárgalo y descomprimelo.
 
 2. Abre el proyecto en Apache NetBeans.
 
