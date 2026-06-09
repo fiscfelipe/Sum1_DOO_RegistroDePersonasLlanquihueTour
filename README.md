@@ -10,7 +10,7 @@
 
 ## 💻 Descripción general del sistema
 
-Este proyecto corresponde a la actividad sumativa 1 de la asignatura **Desarrollo Orientado a Objetos **.
+Este proyecto corresponde a la actividad sumativa 1 de la asignatura **Desarrollo Orientado a Objetos**.
 
 La solución desarrollada consiste en un sistema orientado a objetos para la agencia de turismo **Llanquihue Tour**, cuyo objetivo es representar y gestionar información relacionada con personas vinculadas a la empresa.
 
