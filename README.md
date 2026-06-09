@@ -61,7 +61,8 @@ git clone https://github.com/fiscfelipe/Sum1_DOO_RegistroDePersonasLlanquihueTou
 
 4. Observa los ejemplos mostrados por consola y utiliza el menú interactivo para simular el registro de proveedores.
 
-nota: También existe la opción de descargarlo como un archivo .zip desde el menú desplegable arriba a la derecha (<> Code)
+**nota:** También existe la opción de descargarlo como un archivo .zip desde el menú desplegable arriba a la derecha (<> Code)
+
 ---
 
 **Repositorio GitHub:** https://github.com/fiscfelipe/Sum1_DOO_RegistroDePersonasLlanquihueTour
